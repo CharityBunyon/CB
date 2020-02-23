@@ -15,19 +15,19 @@ Welcome to my portfolio site that displays all of my projects. This application 
 
 ## Screenshots
 Display on page load
-![on load]()
+![on load](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/2.png)
 
 About Section
-![about]()
+![about](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/3.png)
 
 Technology Section
-![skills]()
+![skills](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/4.png)
 
 Projects Section
-![projects]()
+![projects](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/5.png)
 
 Contact Section
-![create pin]()
+![create pin](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/6.png)
 
 
 
