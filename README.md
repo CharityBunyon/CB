@@ -41,7 +41,7 @@ Contact Section
 * In your browser, navigate to `https://localhost:8080`;
 
 ## Demo
-[Preview the app here!]( https://personal-site-44635.firebaseapp.com/)
+[Preview the app here!]( https://charitybunyon.com/)
 
 
 ## Contributors

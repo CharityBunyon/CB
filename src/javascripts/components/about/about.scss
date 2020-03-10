@@ -1,5 +1,4 @@
 .wrapper {
-  // height: 100vh;
   margin: 50px 60% 50px 40px;
    }
   
@@ -11,7 +10,15 @@
   color: #fff;
   padding: 20px 14px;
   top: 50vh;
+  // opacity: 0;
+  // transform: translateY(25px);
+  // transition: all 1s ease-out;
   }
+
+  // .hello, .fade-in {
+  //   opacity: 1;
+  //   transform: translateY(50px);
+  // }
   
   .aboutPara {
   color: #000;
@@ -27,25 +34,6 @@
     }
   
   @media screen and (max-width: 600px) {
-    // .wrapper {
-    //   width: 325px;
-    //   // margin-right: 100px;
-    //    }
-  
-    // .hello {
-    // // margin: 30px 43% 30px 0px;
-    // background-color: #f5d328;
-    // color: #fff;
-    // // padding: 20px 14px;
-    // font-size: 20px;
-    // }
-  
-    // .aboutPara,
-    // .aboutPara2 {
-    //   font-size: 16px;
-    // }
-
-
     .wrapper {
       // height: 100vh;
       // margin: 50px 60% 50px 40px;
