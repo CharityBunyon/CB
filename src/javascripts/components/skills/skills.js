@@ -5,7 +5,7 @@ import workspace from '../../../images/iStock-538306567 2.jpg';
 const buildSkillSection = () => {
   const domString = `
   <div class="container-fluid wrapper2 d-flex row flex-wrap justify-content-center skillsArea">
-    <div class="col-6 text-center">
+    <div class="col-md-6 text-center">
     <img src=${workspace} class="workspaceImg " alt="Flat Work Space Image">
     </div>
     <div class="col skillSet">
@@ -22,7 +22,7 @@ const buildSkillSection = () => {
           <li>Problem Solving</li>
           <li>Communication</li>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <li>Javascript</li>
           <li>SQL</li>
           <li>HTML5</li>
