@@ -42,6 +42,13 @@ body {
   font-size: 18px;
 }
 
+.contact-container {
+  max-width:1170px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1em;
+}
+
 @media only screen and (min-width: 768px) {
   #mainCaro {
     height: 10px;
@@ -57,4 +64,11 @@ body {
     top: 75vh;
     left: 20vw;
   }
+
+  // .contact-container {
+  //   max-width:50vw;
+  //   // margin-left:auto;
+  //   // margin-right:auto;
+  //   // padding:1em;
+  // }
 }
