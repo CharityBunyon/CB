@@ -8,7 +8,7 @@ const buildSkillSection = () => {
     <div class="col-md-6 text-center">
     <img src=${workspace} class="workspaceImg " alt="Flat Work Space Image">
     </div>
-    <div class="col skillSet">
+    <div class="col-md-6 skillSet">
       <h4 class="skillsTitle text-right img-fluid">What I Know!</h4>
     
       <p class="skillsDescription img-fluid">Software development is hard, but I'm totally <strong>LOVING</strong> it! Here is a list of skills and technologies I'm proficient in:</p>
@@ -22,7 +22,7 @@ const buildSkillSection = () => {
           <li>Problem Solving</li>
           <li>Communication</li>
         </div>
-        <div class="col-md-6">
+        <div class="col-6">
           <li>Javascript</li>
           <li>SQL</li>
           <li>HTML5</li>

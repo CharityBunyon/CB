@@ -1,25 +1,36 @@
 import './contact.scss';
 import utilities from '../../helpers/utilities';
 
-import me from '../../../images/me2.jpg';
+import airplane from '../../../images/airplane.svg';
 
 
 const buildContactSection = () => {
   const domString = `
-  <div class="container-fluid d-flex row flex-wrap contactArea">
+    <div class="contact-wrapper d-flex row flex-wrap"">
+      <div class="contact-image col">
+        <img class="icon" src="${airplane}" alt="email">
+      </div>
 
-    <div class="col text-center">
-      <img src=${me} class="emoji" alt="Emoji Image">
+      <div class="contact-form col">
+        <h3 class="form-title">Contact Me</h3>
+        <form>
+        <div class="form-group">
+            <input type="text" class="form-control sections" id="" name="name" aria-describedby="emailHelp" placeholder="Name">
+          </div>
+
+          <div class="form-group">
+            <input type="email" class="form-control sections" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Email">
+          </div>
+
+          <div class="form-group full">
+            <textarea type="text" class="form-control sections" id="" name="message" aria-describedby="emailHelp" placeholder="Message">Message...
+            </textarea>
+          </div>
+         
+          <button type="submit" class="btn btn-primary full sections-submit">Send</button>
+        </form>
+      </div>
     </div>
-
-    <div class="col contactInfo">
-      <h3 class="connectTitle">Let's Chat</h3>
-      <p class="contactPara">I'm currently available for hire. If you have any opportunities, projects, or if you want to say hi, contact me. I'd love to connect.</p>
-      <p>Nashville, TN</p>
-      <p class="contactEmail"><a href="mailto: charitycbunyon@gmail.com" target="_blank">Click to Contact Me!</a></p>     
-    </div>
-
-  </div>
   `;
   utilities.printToDom('contact', domString);
 };
