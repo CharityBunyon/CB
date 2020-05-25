@@ -10,6 +10,9 @@ const buildAbout = () => {
         <img class="profile-image" src="${profile}" alt="Image of Charity Bunyon">
       </div>
       <div class="col-sm-12 col-md-6">
+      <div class="text-center">
+       <i class="fas fa-glasses glass-icon"></i>
+      </div>
         <h2 class="about-title text-center">About Me</h2>
         <p class="about-para">Welcome!<p>
 

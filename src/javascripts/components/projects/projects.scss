@@ -1,44 +1,66 @@
-.projectCard  {
-  margin-top: 30px;
-  margin-right: 20px;
+
+.project-card  {
+  // margin-top: 30px;
+  // margin-right: 20px;
   margin-bottom: 50px;
-  border: 3px solid #000;
+  background-color: transparent;
+  //border: 3px solid #000;
+  width: 1000px;
 }
-.icons {
-  width: 122px;
-  text-align: center;
-  margin-top: 90px;
+.card-images {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 400px;
+  height: 350px;
 }
 
-.projectTitle {
-  font-size: 30px;
-  color: #f5d328;
-  margin-bottom: 50px;
+.content {
+  margin-top: 60px;
+}
+
+.project-title {
+  font-size: 32px;
+  color: #000;
+  text-align: right;
 }
 
   
 .projectInfo {
   color: #000;
-  font-size: 19px;
+  font-size: 16px;
   margin-top: 30px;
-  padding: 0px 25px;
+  padding: 10px 20px;
+  text-align: left;
+  background-color: goldenrod;
+  position: relative;
+  border-radius: 10px;
+}
+
+.tech {
+  text-align: right;
+  color: #000;
+}
+
+.project-icons {
+  text-align: right;
 }
 
 .viewProject,
 .viewGit {
-margin-right: 30px;
+margin-right: 10px;
 color: #000;
+font-size: 20px;
 
 }
 
 .viewProject:hover {
   text-decoration: none;
-  color: #fff;
+  color: goldenrod;
 }
 
 .viewGit:hover {
   text-decoration: none;
-  color: #fff;
+  color: goldenrod
 }
 
 
@@ -48,36 +70,23 @@ color: #000;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #f5d328;
+  background-color: #000;
   overflow: hidden;
   width: 100%;
   height: 0;
   transition: .5s ease;
+  border-radius: 15px;
 }
 
 .projectCard:hover .overlay {
-  opacity: 1;
+  opacity: 0.85;
   height: 100%;
 
 }
 
 @media screen and (max-width: 600px) {
   .overlay {
-    width: 358px;
+    width: 400px;
   }
-
-  .projectInfo {
-    color: #000;
-    font-size: 16px;
-    margin-top: 30px;
-    padding: 0px 25px;
-  }
-  
-  .viewProject,
-  .viewGit {
-  margin-right: 16px;
-  color: #000;
-  
-  }
-
 }
+
