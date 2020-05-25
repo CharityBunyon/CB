@@ -16,7 +16,8 @@ import moqups from '../../../images/moqups-logo.jpg';
 const buildSkillSection = () => {
   const domString = `
   <div class="">
-    <div>
+    <div class="text-center">
+    <i class="fas fa-glasses glass-icon"></i>
     <h2 class="text-center skills-title">Technologies I've Worked With</h2>
     </div>
 
