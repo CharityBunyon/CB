@@ -1,10 +1,5 @@
 import './contact.scss';
-// import axios from 'axios';
 import utilities from '../../helpers/utilities';
-// mport airplane from '../../../images/airplane.svg';
-// import apiKeys from '../apiKeys.json';
-
-// const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
 const buildContactSection = () => {
   const domString = `
