@@ -1,37 +1,38 @@
 import './skills.scss';
 import utilities from '../../helpers/utilities';
-import workspace from '../../../images/iStock-538306567 2.jpg';
+import html from '../../../images/html-logo.png';
+import javascript from '../../../images/JavaScript-logo.png';
+import react from '../../../images/react-logo.png';
+import git from '../../../images/git-logo.png';
+import github from '../../../images/github-logo.png';
+import css from '../../../images/css-logo.png';
+import sass from '../../../images/sass-logo.png';
+import bootstrap from '../../../images/bootstrap-logo.png';
+import sql from '../../../images/sql-logo.png';
+import c from '../../../images/csharp-logo.png';
+import net from '../../../images/net-logo.png';
+import moqups from '../../../images/moqups-logo.jpg';
 
 const buildSkillSection = () => {
   const domString = `
-  <div class="container-fluid wrapper2 d-flex row flex-wrap justify-content-center skillsArea">
-    <div class="col-md-6 text-center">
-    <img src=${workspace} class="workspaceImg " alt="Flat Work Space Image">
+  <div class="">
+    <div>
+    <h2 class="text-center skills-title">Technologies I've Worked With</h2>
     </div>
-    <div class="col-md-6 skillSet">
-      <h4 class="skillsTitle text-right img-fluid">What I Know!</h4>
-    
-      <p class="skillsDescription img-fluid">Software development is hard, but I'm totally <strong>LOVING</strong> it! Here is a list of skills and technologies I'm proficient in:</p>
-      <ul class="container d-flex row flex-wrap skillsList img-fluid">
-        <div class="col-6">
-          <li>React</li>
-          <li>Sass</li>
-          <li>C#</li>
-          <li>Firebase</li>
-          <li>.NET</li>
-          <li>Problem Solving</li>
-          <li>Communication</li>
-        </div>
-        <div class="col-6">
-          <li>Javascript</li>
-          <li>SQL</li>
-          <li>HTML5</li>
-          <li>CSS</li>
-          <li>Bootstrap</li>
-          <li>Team Player</li>
-          <li>Adaptable</li>
-        </div>
-      </ul>
+
+    <div class=" d-flex row flex-wrap">
+    <span><img src="${html}" alt="html logo" class="skills-logo"/></span>
+    <span><img src="${javascript}" alt="javascript logo" class="skills-logo"/></span>
+    <span><img src="${react}" alt="react logo" class="skills-logo"/></span>
+    <span><img src="${git}" alt="git logo" class="skills-logo"/></span>
+    <span><img src="${github}" alt="github logo" class="skills-logo"/></span>
+    <span><img src="${css}" alt="css logo" class="skills-logo"/></span>
+    <span><img src="${sass}" alt="sass logo" class="skills-logo"/></span>
+    <span><img src="${bootstrap}" alt="bootstrap logo" class="skills-logo"/></span>
+    <span><img src="${sql}" alt="sql logo" class="skills-logo"/></span>
+    <span><img src="${c}" alt="c sharp logo" class="skills-logo"/></span>
+    <span><img src="${net}" alt=".net logo" class="skills-logo"/></span>
+    <span><img src="${moqups}" alt="mosqups logo" class="skills-logo"/></span>
     </div>
 
   </div>
