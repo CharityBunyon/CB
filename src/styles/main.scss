@@ -1,34 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
-// @import "path/to/hamburgers";
+
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #fff;
-  font-family: 'Roboto';
+  background-image: linear-gradient(to top, #fff9e7 0, #fff 100%);
+  font-family: 'Courier Prime', monospace, Arial, Helvetica, sans-serif;
 }
-
-// #empty {
-//   background-color: #cc5500;
-//   height: 50px;
-// }
 
 .footer{
   text-align: center;
-  background-color: #fff;
+  background-color: goldenrod;
   padding: 10px;
   font-size: 25px;
   color: #000;
-  // border-top: 1px solid #000;
-  // margin-top: 50px;
 }
 
 #icons{
   list-style-type: none;
   margin: 15px;
-  font-size: 35px;
+  font-size: 23px;
 }
 #icons a {
   color: #000;
@@ -64,11 +57,4 @@ body {
     top: 75vh;
     left: 20vw;
   }
-
-  // .contact-container {
-  //   max-width:50vw;
-  //   // margin-left:auto;
-  //   // margin-right:auto;
-  //   // padding:1em;
-  // }
 }
