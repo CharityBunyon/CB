@@ -1,30 +1,86 @@
 
-.mainNav {
-  padding: 25px 0px;
-}
 .navImage {
-  height: 50px;
-  margin-left: 25px;
+  width: 120px;
 }
 
-#individualLink {
-  margin-left: 50px;
-  font-size: 16px;
-  color: #111;
-  font-family: 'Roboto';
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: goldenrod;
+  padding: 35px 0px;
 }
 
-#individualLink:hover {
-  border-bottom: 2px solid #f5d328;
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 26px;
 }
 
-.navTog {
-  border: none;
-  margin-right: 35px;
+.topnav a:hover {
+  color: #fff;
 }
 
-.hamburger {
-  color: crimson;
+.topnav a.active {
+  color: white;
 }
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+
+// .mainNav {
+//   padding: 25px 0px;
+// }
+// .navImage {
+//   height: 50px;
+//   margin-left: 25px;
+// }
+
+// #individualLink {
+//   margin-left: 50px;
+//   font-size: 16px;
+//   color: #111;
+//   font-family: 'Roboto';
+// }
+
+// #individualLink:hover {
+//   border-bottom: 2px solid #f5d328;
+// }
+
+// .navTog {
+//   border: none;
+//   margin-right: 35px;
+// }
+
+// .hamburger {
+//   color: crimson;
+// }
 
 
