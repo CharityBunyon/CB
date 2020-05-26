@@ -32,8 +32,12 @@ body {
 }
 
 #projects{
-  //background-color: #000;
   padding-top: 15px;
+  margin-top: 110px;
+}
+
+.nav-length {
+  height: 100vh;
 }
 
 .copyright {
@@ -46,6 +50,20 @@ body {
   margin-right:auto;
   padding:1em;
 }
+
+.floating-icons{
+  position: fixed;
+  color: blue;
+  z-index: 1;
+  bottom:0;
+  visibility: hidden;
+}
+
+.dots {
+  color: #000;
+  padding-left: 5px;
+}
+
 
 @media only screen and (min-width: 768px) {
   #mainCaro {
@@ -61,5 +79,17 @@ body {
   .nextBtn {
     top: 75vh;
     left: 20vw;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .nav-length {
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .floating-icons {
+    visibility: visible;
   }
 }
