@@ -1,10 +1,10 @@
 .mainNav {
   background-color: #fff;
-  padding-bottom: 50px;
+
 }
 
 .navImage {
-  height: 100px;
+  height: 90px;
   margin-left: 20px;
 }
 
@@ -41,6 +41,7 @@
   visibility:hidden;
 }
 
+
 @media only screen and (max-width: 768px) {
   .oneIntro {
     height: auto;
@@ -52,6 +53,7 @@
     visibility:visible;
   }
 }
+
 
 
 

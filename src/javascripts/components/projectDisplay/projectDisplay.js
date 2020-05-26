@@ -1,5 +1,6 @@
-import utilities from '../../helpers/utilities';
+/* eslint-disable no-unused-vars */
 import './projectDisplay.scss';
+import utilities from '../../helpers/utilities';
 import projectData from '../../helpers/data/projectData';
 import projects from '../projects/projects';
 
@@ -18,5 +19,6 @@ const buildProjects = () => {
     })
     .catch((error) => console.error(error));
 };
+
 
 export default { buildProjects };

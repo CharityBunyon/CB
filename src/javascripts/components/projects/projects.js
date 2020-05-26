@@ -1,4 +1,7 @@
+/* eslint-disable no-unused-vars */
 import './projects.scss';
+import $ from 'jquery';
+import ScrollMagic from 'scrollmagic';
 
 
 const buildProjectCard = (projects) => {
@@ -21,4 +24,18 @@ const buildProjectCard = (projects) => {
       `;
   return domString;
 };
+
+
 export default { buildProjectCard };
+
+// const showAbout = () => {
+//   $(document).ready(() => {
+//     const controller = new ScrollMagic.Controller();
+//     const scene = new ScrollMagic.Scene({
+//       triggerElement: '.fade-in',
+//       reverse: true,
+//     })
+//       .setClassToggle('.fade-in', 'show')
+//       .addTo(controller);
+//   });
+// };
