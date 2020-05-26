@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './skills.scss';
 import utilities from '../../helpers/utilities';
 import html from '../../../images/html-logo.png';
@@ -15,7 +16,7 @@ import moqups from '../../../images/moqups-logo.jpg';
 
 const buildSkillSection = () => {
   const domString = `
-  <div class="tech-section">
+  <div class="tech-section >
     <div class="text-center">
     <i class="fas fa-glasses glass-icon"></i>
     <h2 class="text-center skills-title">Technologies I've Worked With</h2>
@@ -40,5 +41,6 @@ const buildSkillSection = () => {
   `;
   utilities.printToDom('skills', domString);
 };
+
 
 export default { buildSkillSection };

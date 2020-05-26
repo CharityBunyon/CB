@@ -1,11 +1,14 @@
+/* eslint-disable no-unused-vars */
 import './about.scss';
+import $ from 'jquery';
+import ScrollMagic from 'scrollmagic';
 import utilities from '../../helpers/utilities';
 import profile from '../../../images/charity.jpg';
 
 
 const buildAbout = () => {
   const domString = ` 
-  <div class="d-flex row about-section">
+  <div class="d-flex row about-section fade-in">
       <div class="col-sm-12 col-md-6 image-area">
         <img class="profile-image" src="${profile}" alt="Image of Charity Bunyon">
       </div>
@@ -25,11 +28,23 @@ const buildAbout = () => {
         <a href="https://drive.google.com/file/d/1e8enfsFnVmsCAL9SnvGCNLhgHhmYOlza/view?usp=sharing" target="_blank" class="resume">Download CV<i class="fas fa-download"></i></a>
       </div>
     </div>
-
- 
-    
     `;
   utilities.printToDom('about', domString);
 };
 
-export default { buildAbout };
+// const element = document.querySelector('.about-section');
+// const element2 = document.querySelector('.show');
+
+const showAbout = () => {
+  $(document).ready(() => {
+    const controller = new ScrollMagic.Controller();
+    const scene = new ScrollMagic.Scene({
+      triggerElement: '.fade-in',
+      reverse: true,
+    })
+      .setClassToggle('.fade-in', 'show')
+      .addTo(controller);
+  });
+};
+
+export default { buildAbout, showAbout };

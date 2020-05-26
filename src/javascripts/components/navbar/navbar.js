@@ -1,6 +1,5 @@
 import './navbar.scss';
 import utilities from '../../helpers/utilities';
-
 import logo from '../../../images/logo2.png';
 import one from '../../../images/landing-img.png';
 import two from '../../../images/mobile-landing.png';
@@ -33,16 +32,11 @@ const buildNav = () => {
     </div>
   </nav>
 
-
   <div class="container text-center"> 
   <img src=${one} class="oneIntro img-fluid" alt="Brand Image">
   <img src=${two} class="twoIntro img-fluid" alt="Brand Image">
   </div>
-
 </div>
- 
-
-
   `;
   utilities.printToDom('nav', domString);
 };

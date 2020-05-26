@@ -11,6 +11,17 @@
   //margin: 0px 0px;
   padding-bottom: 50px;
 }
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transition: translateY(0);
+}
  
 .profile-image {
  width: 350px;
