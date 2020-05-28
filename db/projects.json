@@ -1,7 +1,7 @@
 {
   "project1": {
     "title": "Create Beauty",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/Create.png",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Charity/master/src/images/makeup.jpg",
     "description": "Have you ever completed a makeup look and you received so many compliments that you wanted to cherish it forever? Well welcome to Create Beauty, the beauty application that allows you to store your look creation, rate them, and share them with others!",
     "technologies": "Reactjs, CSS, Javascript, Bootstrap, Firebase",
     "url": "https://create-beauty.firebaseapp.com/auth",
@@ -9,7 +9,7 @@
   },
   "project2": {
     "title": "Sandwich Maker",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/Sandwich.png",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Charity/master/src/images/burger.jpg",
     "description": "Feeling hungry? Want a sandwich? Want to order a fake sandwich through an app? Well, Hit the Spot is an application that will allow users to order a sandwich of their choice. You will be able choose toppings and receive a report of your order.",
     "technologies": "HTML, CSS, Javascript, Bootstrap, Firebase",
     "url": "https://sandwich-maker-a04f9.firebaseapp.com/",
@@ -17,7 +17,7 @@
   },
   "project3": {
     "title": "Fadterest",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/Fad.png",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Charity/master/src/images/camera.jpg",
     "description": "Are you obsessed with fads and want to housed your obsession on a platform? Try out Fadterest, a single page application that allows users to log in, create fad boards, and add pins all of your favorite fads to their boards.",
     "technologies": "HTML, CSS, Javascript, Bootstrap, Firebase",
     "url": "https://pinterest-d9513.firebaseapp.com/",
@@ -25,7 +25,7 @@
   },
   "project4": {
     "title": "Solar System",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/Solar.png",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Charity/master/src/images/solarIcon.jpg",
     "description": "How much do you know about our solar system? Not much? Well click view to learn more. Solar System is a single page app that allow users to receive more information about the planets in our solar system.",
     "technologies": "HTML, CSS, Jquery, Javascript, & Bootstrap",
     "url": " https://solar-system-4f715.firebaseapp.com",
@@ -33,7 +33,7 @@
   },
   "project5": {
     "title": "Pardon Us",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/Pardon.png",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Charity/master/src/images/rock.jpg",
     "description": "Pardon Us are a three-piece DIY punk band from Liverpool, formed in 2014. Pardon Us is group project I completed for a band called Pardon Us. I completed the ABOUT page.",
     "technologies": "HTML, CSS, Javascript, Bootstrap",
     "url": "https://pardon-us.firebaseapp.com/",
