@@ -58,7 +58,6 @@ module.exports = {
       chunkFilename: "[id].css"
     })
   ],
-  plugins: [ new webpack.ProvidePlugin({ ScrollMagic:'scrollmagic', }) ],
   output: {
 		path: __dirname + "/build",
 		filename: "bundle.js"
