@@ -27,15 +27,3 @@ const buildProjectCard = (projects) => {
 
 
 export default { buildProjectCard };
-
-// const showAbout = () => {
-//   $(document).ready(() => {
-//     const controller = new ScrollMagic.Controller();
-//     const scene = new ScrollMagic.Scene({
-//       triggerElement: '.fade-in',
-//       reverse: true,
-//     })
-//       .setClassToggle('.fade-in', 'show')
-//       .addTo(controller);
-//   });
-// };
