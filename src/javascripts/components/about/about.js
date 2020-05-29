@@ -32,9 +32,6 @@ const buildAbout = () => {
   utilities.printToDom('about', domString);
 };
 
-// const element = document.querySelector('.about-section');
-// const element2 = document.querySelector('.show');
-
 const showAbout = () => {
   $(document).ready(() => {
     const controller = new ScrollMagic.Controller();

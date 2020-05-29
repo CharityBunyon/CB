@@ -7,7 +7,7 @@ Welcome to my portfolio site that displays all of my projects. This application 
 ## Technologies Used
 
 ```
-- Javascript
+- JavaScript
 - Scroll Magic: The javascript library for magical scroll interactions.
 - [Bootstrap](https://getbootstrap.com/): free and open-source CSS framework
 - PhotoShop
@@ -22,19 +22,19 @@ Welcome to my portfolio site that displays all of my projects. This application 
 ## Screenshots
 
 Display on page load
-![on load](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/2.png)
+![on load](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/landing.png)
 
 About Section
-![about](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/3.png)
+![about](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/about.png)
 
 Technology Section
-![skills](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/4.png)
+![skills](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/skills.png)
 
 Projects Section
-![projects](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/5.png)
+![projects](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/projects.png)
 
 Contact Section
-![create pin](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/6.png)
+![create pin](https://raw.githubusercontent.com/CharityBunyon/CB/master/src/images/contact.png)
 
 
 

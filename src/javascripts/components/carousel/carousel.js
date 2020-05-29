@@ -1,12 +1,6 @@
 import './carousel.scss';
 import utilities from '../../helpers/utilities';
 
-// import create from '../../../images/create2.png';
-// import fad from '../../../images/Fad.png';
-// import pardon from '../../../images/band.png';
-// import sandwich from '../../../images/hit.png';
-// import solar from '../../../images/Solar.png';
-
 
 const buildCarousel = () => {
   const domString = `
