@@ -3,20 +3,18 @@ import utilities from '../../helpers/utilities';
 
 const buildContactSection = () => {
   const domString = `
-    <div class="contact-wrapper d-flex row flex-wrap">
-
-      <div class="contact-form text-center col">
-      <i class="fas fa-glasses glass-icon"></i>
-        <h2 class="text-center contact-title">Contact Me</h2>
-
-        <li class="contact-para contact-links">Want to connect? Please feel free to reach out to me!</li>
-        
-        <li class="contact-links"><a href="mailto:charitycbunyon@gmail.com" target="_blank"><i class="far fa-paper-plane contact-icons"></i>Email Me</a></li>
-
-        <li class="contact-links"><a href="https://www.linkedin.com/in/charity-bunyon/" target="_blank"><i class="fab fa-linkedin contact-icons"></i>View My LinkedIn</a></li>
-
-        <li class="contact-links"><a href="https://github.com/CharityBunyon" target="_blank"><i class="fab fa-github contact-icons"></i>View My Github</a></li>
-      
+    <div class="container d-flex flex-wrap connect-container">
+      <div class="col-md-4 connect text-center">
+        <div class="inner2">
+          <i class="fas fa-glasses glass-icon"></i>
+          <h2>Let's Connect</h2>
+        </div>
+      </div>
+      <div class="col-md-8 connectInfo text-center">
+        <div class="inner">
+          <p class="hire-me">I'm currently available for hire. If you have any opportunities, projects, or if you want to say hi, contact me. I'd love to connect.</p>
+          <a href="mailto:charitycbunyon@gmail.com" target="_blank" class="resume">Connect With Me</a>
+        </div>
       </div>
     </div>
   `;
