@@ -13,8 +13,9 @@ const buildProjectCard = (projects) => {
   </div>
   
   <div class="overlay text-center">
-    <p class="card-title" id="projectTitle">${projects.title.toUpperCase()}</p> 
-    <p class="projectInfo ">${projects.technologies}</p> 
+    <p class="card-title" id="projectTitle">${projects.title.toUpperCase()}</p>
+    <p class="projectDes">${projects.description}</p>
+    <p class="projectInfo">Technologies:${projects.technologies}</p> 
     <div class="text-center">
       <a href="${projects.github}" class="projectInfo viewGit"><i class="fab fa-github"></i></a>  
       <a href="${projects.url}" class="projectInfo viewProject"><i class="fas fa-external-link-alt"></i></a>  
