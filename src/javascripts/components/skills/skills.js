@@ -22,7 +22,7 @@ const buildSkillSection = () => {
     <h2 class="text-center skills-title">Technologies I've Worked With</h2>
     </div>
 
-    <div class=" d-flex row flex-wrap">
+    <div class=" d-flex row flex-wrap justify-content-center">
     <span><img src="${html}" alt="html logo" class="skills-logo"/></span>
     <span><img src="${javascript}" alt="javascript logo" class="skills-logo"/></span>
     <span><img src="${react}" alt="react logo" class="skills-logo"/></span>
