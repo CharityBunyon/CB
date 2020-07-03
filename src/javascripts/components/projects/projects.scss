@@ -86,11 +86,11 @@ font-size: 20px;
 
   .image {
     width: 350px;
-    height: 350px;
+    height: 345px;
   }
 
   #projectTitle {
-    padding-top: 60px;
+    padding-top: 5px;
   }
 
   .overlay {
@@ -100,16 +100,22 @@ font-size: 20px;
   }
 
   .projectInfo {
-    color: #fff;
-    font-size: 16px;
+    color: #000;
+    font-size: 13px;
     padding: 0px 25px;
+  }
+
+  .projectDes {
+    color: #000;
+    font-size: 13px;
+    padding: 5px 30px;
   }
   
   .viewProject,
   .viewGit {
   margin-right: 16px;
-  color: #fff;
-  font-size: 23px; 
+  color: #000;
+  font-size: 15px; 
   }
 
 }

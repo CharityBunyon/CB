@@ -9,7 +9,7 @@ const buildProjectCard = (projects) => {
   domString += `
   <div class="card projectCard" style="width: 30rem;">
   <div class="text-center ">
-  <a href="${projects.url}"><img src="${projects.projectImg}" alt="${projects.title}" class=" image image-fluid"></a>
+  <img src="${projects.projectImg}" alt="${projects.title}" class=" image image-fluid">
   </div>
   
   <div class="overlay text-center">
